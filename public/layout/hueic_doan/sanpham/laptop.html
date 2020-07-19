@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <title>Hueic&trade;Co.LTD </title>
+   </head>
+   <body>
+      <!-- Navigator -->
+      <!-- menu trái -->
+      <nav class="navbar navbar-fixed-top navbar-default ">
+         <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>   
+                    <span class="icon-bar"></span>                        
+                  </button>
+               <a class="navbar-brand" href="../index.html">HUEICSTORE&trade;</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav ">
+               <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sản Phẩm
+                  <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                     <li><a href="../sanpham/laptop.html">LAPTOP</a></li>
+                     <li><a href="../sanpham/phone.html">SMARTPHONE</a></li>
+                     <li><a href="../sanpham/tablet.html">TABLET</a></li>
+                  </ul>
+               </li>
+               <li><a href="https://www.facebook.com/profile.php?id=100015064840773">LIÊN HỆ</a></li>
+               <li><a href="#">BIG DEALS</a></li>
+            </ul>
+            <!-- menu phải  -->
+            <ul class="nav navbar-nav navbar-right">
+                <button class="btn btn-danger navbar-btn" data-toggle="modal" data-target="#myModal">
+                  <li>Đăng Nhập</li></button>
+                <form class="navbar-form navbar-right">
+                    <div class="input-group">
+                       <input type="text" class="form-control" placeholder="Search">
+                       <div class="input-group-btn">
+                          <button class="btn btn-default" type="submit">
+                          <i class="glyphicon glyphicon-search"></i>
+                          </button>
+                       </div>
+                    </div>
+                 </form>
+              </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- end NAv -->
+      <!-- Header -->
+      <div class="header">
+          <img src="img/cover.gif" width="100%" alt="cover" srcset="">
+          <div class="container text-center">
+              <h1 class="bg-success"><b>YOUR PLEASURE IS OUR WILLING</b></h1>
+           </div>
+      </div>
+      <hr>
+      <!-- end header -->
+      <div class="alert alert-info text-center">
+         <h2><strong> LAPTOP <span class="glyphicon glyphicon-gift"></span></h2></span></strong>
+      </div>
+      <hr>
+      <!-- sản phẩm -->
+      <div class="container">
+         <div class="row">
+            <div class="col-sm-4">
+               <div class="panel panel-primary">
+                  <div class="panel-heading">Dell Inpriron 7567 Core i7 7700HQ</div>
+                  <div class="panel-body"><img src="../img/dell-inspiron-7567-i7-7700hq-n7567b-den-dai-dien-450x300-450x300.png" class="img-responsive" style="height:180px" alt="Image"></div>
+                  <div class="panel-footer">
+                     <s>PRICE : 30.000.000</s>
+                     <h3>21.999.000</h3>
+                     <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-2">Detail</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4">
+               <div class="panel panel-primary">
+                  <div class="panel-heading">DELL XPS 15 9360 CORE I7 7700HQ </div>
+                  <div class="panel-body"><img src="../img/dell-xps-9360-i7-7500u-99h101-450x300-450x300.jpg" class="img-responsive" style="height:180px" alt="Image"></div>
+                  <div class="panel-footer">
+                     <s>PRICE : 38.000.000</s> 
+                     <h3>29.999.000</h3>
+                     <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-3">Detail</button>
+                  </div>
+               </div>
+            </div>
+ 
+            <div class="col-sm-4">
+               <div class="panel panel-primary">
+                  <div class="panel-heading"> MACBOOK PRO WITH TOUCHBAR 512GB SSD  </div>
+                  <div class="panel-body"><img src="../img/apple-macbook-pro-15-mlh32sa-h-450x300.jpg" class="img-responsive" style="height:180px" alt="Image"></div>
+                  <div class="panel-footer">
+                     <s>PRICE : 50.000.000</s> 
+                     <h3>39.999.000</h3>
+                     <button type="button" class="btn btn-sm btn-success" data-toggle="modal" data-target="#details-11">Detail</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end content -->
+
+
+      <!-- details -->
+
+      <!-- Login Form -->
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+  
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title text-center">Đăng Nhập</h4>
+        </div>
+        <div class="modal-body">
+            <form class="form-horizontal">
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="email">Địa Chỉ Email:</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" placeholder="Enter email">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="pwd">Mật Khẩu:</label>
+                  <div class="col-sm-10"> 
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                  </div>
+                </div>
+                <div class="form-group"> 
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                      <label><input type="checkbox"> Nhớ Mật Khẩu </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group"> 
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-danger">Đăng Nhập</button>
+                    <button type="submit" class="btn btn-default" style="text-decoration:none"><a href="dangky/dangky.html">Bạn Chưa Có Tài Khoản?</a></button>                    
+                  </div>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Thoát</button>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+      <!-- Endlogin -->
+
+      <div class="modal fade-details1" id="details-1" tabindex="-1" role="dialog" aria-labelledby="details-1" aria-hidden="true">
+         <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-labelledby="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                  <h4 class="modal-title text-center">Brand</h4>
+               </div>
+               <div class="modal-body">
+                  <div class="container-fluid">
+                     <div class="row">
+                        <div class="col-sm-6">
+                           <div class="center-block">
+                              <img src="../img/note-fe.png" alt="Galaxy Note 8" srcset="" class="details img-responsive">
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <H4>DETAILS</H4>
+                           <P>CẤU HÌNH ĐỂ Ở ĐÂY -_- </P>
+                           <P>price : </P>
+                           <P>BRAND : </P>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <button class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button class="btn btn-warning" type="submit"><span class="glyphicon glyphicon-cart"> </span>Thêm Vào Giỏ Hàng</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade-details1" id="details-2" tabindex="-1" role="dialog" aria-labelledby="details-1" aria-hidden="true">
+         <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-labelledby="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                  <h4 class="modal-title text-center">Dell Inpriron 7567 Core i7 7700HQ</h4>
+               </div>
+               <div class="modal-body">
+                  <div class="container-fluid">
+                     <div class="row">
+                        <div class="col-sm-6">
+                           <div class="center-block">
+                              <img src="../img/dell-inspiron-7567-i7-7700hq-n7567b-den-dai-dien-450x300-450x300.png" alt="Galaxy Note 8" srcset="" class="details img-responsive">
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <H4>Chi Tiết</H4>
+                           <P>CẤU HÌNH ĐỂ Ở ĐÂY -_- </P>
+                           <P>price : <s>PRICE : 30.000.000</s>21.999.000</P>
+                           <P>BRAND : DELL </P>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <button class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button class="btn btn-warning" type="submit"><span class="glyphicon glyphicon-cart"> </span>Thêm Vào Giỏ Hàng</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade-details1" id="details-3" tabindex="-1" role="dialog" aria-labelledby="details-1" aria-hidden="true">
+         <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-labelledby="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                  <h4 class="modal-title text-center">DELL XPS 15 9360 CORE I7 7700HQ</h4>
+               </div>
+               <div class="modal-body">
+                  <div class="container-fluid">
+                     <div class="row">
+                        <div class="col-sm-6">
+                           <div class="center-block">
+                              <img src="../img/dell-xps-9360-i7-7500u-99h101-450x300-450x300.jpg" alt="Galaxy Note 8" srcset="" class="details img-responsive">
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <H4>DETAILS</H4>
+                           <P>CẤU HÌNH ĐỂ Ở ĐÂY -_- </P>
+                           <P>price : </P>
+                           <P>BRAND : </P>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <button class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button class="btn btn-warning" type="submit"><span class="glyphicon glyphicon-cart"> </span>Thêm Vào Giỏ Hàng</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade-details1" id="details-11" tabindex="-1" role="dialog" aria-labelledby="details-1" aria-hidden="true">
+         <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-labelledby="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                  <h4 class="modal-title text-center">MACBOOK PRO WITH TOUCHBAR 512GB SSD</h4>
+               </div>
+               <div class="modal-body">
+                  <div class="container-fluid">
+                     <div class="row">
+                        <div class="col-sm-6">
+                           <div class="center-block">
+                              <img src="../img/apple-macbook-pro-15-mlh32sa-h-450x300.jpg" alt="Galaxy Note 8" srcset="" class="details img-responsive">
+                           </div>
+                        </div>
+                        <div class="col-sm-6">
+                           <H4>DETAILS</H4>
+                           <P>CẤU HÌNH ĐỂ Ở ĐÂY -_- </P>
+                           <P>price : </P>
+                           <P>BRAND : APPLE </P>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="modal-footer">
+                  <button class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button class="btn btn-warning" type="submit"><span class="glyphicon glyphicon-cart"> </span>Thêm Vào Giỏ Hàng</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end details -->
+<br><br><br><hr><br><br>
+
+      <footer class="container-fluid text-center">
+         <form class="form-inline"> Contact Us !
+            <input type="text" class="form-control" size="50" placeholder="">
+            <button type="button" class="btn btn-danger">SUBMIT</button>
+            <br>
+         </form>
+         <br><br>
+         <h4>HUEIC CO.LTD , SĐT :  0234 3822 813 <br> Address : 70 Nguyễn Huệ, Vĩnh Ninh, Tp. Huế, Thừa Thiên Huế</h4>
+      </footer>
+   </body>
+</html>
